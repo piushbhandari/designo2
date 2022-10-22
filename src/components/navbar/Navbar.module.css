@@ -1,12 +1,8 @@
 .header {
   border: 1px solid black;
-  padding: 6.4rem 4rem;
+  padding: 6.4rem 0;
 }
 .header__container {
-  border: 1px solid red;
-  max-width: 111rem;
-  margin: 0 auto;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
@@ -45,7 +41,7 @@
 
 @media all and (max-width: 670px) {
   .header {
-    padding: 3.5rem 2.4rem;
+    padding: 3.5rem 0;
   }
   .nav-links {
     top: 0;

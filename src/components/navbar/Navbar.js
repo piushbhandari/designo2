@@ -14,7 +14,7 @@ const Navbar = () => {
   }
   return (
     <header className={styles.header}>
-      <div className={`${styles["header__container"]}`}>
+      <div className={`${styles["header__container"]} container`}>
         <div className={styles.logo}>
           <a href="/">
             <img className="fit-image" src={logo} alt="designo company" />

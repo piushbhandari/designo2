@@ -190,3 +190,20 @@ button {
   white-space: nowrap;
   width: 0.0625rem;
 }
+/* container */
+
+.container {
+  /* border: 1px solid red; */
+  max-width: 111rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+@media all and (max-width: 768px) {
+  .container {
+  }
+}
+@media all and (max-width: 375px) {
+  .container {
+    padding: 0 2.4rem;
+  }
+}
