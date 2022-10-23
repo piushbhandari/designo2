@@ -13,9 +13,7 @@
   max-width: 19.5rem;
   height: 2.4rem;
 }
-.nav-links-container {
-  display: none;
-}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -56,6 +54,9 @@
   }
   .open-nav {
     display: block;
+  }
+  .nav-links-container {
+    display: none;
   }
   .nav-links-container {
     position: fixed;

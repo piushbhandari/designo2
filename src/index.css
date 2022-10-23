@@ -194,7 +194,7 @@ button {
 
 .container {
   /* border: 1px solid red; */
-  max-width: 111rem;
+  max-width: 119rem;
   margin: 0 auto;
   padding: 0 4rem;
 }
@@ -206,7 +206,4 @@ button {
   .container {
     padding: 0 2.4rem;
   }
-}
-* {
-  border: 1px solid red;
 }
